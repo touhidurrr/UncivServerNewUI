@@ -15,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto 1fr;
-    background: #303030;
+    background: #202020;
 }
 
 a {
@@ -25,7 +25,6 @@ a {
 
 header {
     height: fit-content;
-    background: #202020;
     padding: 2vmin;
     display: flex;
     justify-content: space-between;
@@ -62,7 +61,7 @@ header {
 }
 
 .tabs > div {
-    background: #202020;
+    background: #0e0e0e;
     margin: 1vmin;
     margin-bottom: 0;
     padding: 0.5vmin;
@@ -76,7 +75,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #202020;
+    background: #0e0e0e;
     margin: 1vmin;
     padding: 2vmin;
 }
@@ -96,7 +95,7 @@ header {
 }
 
 .card {
-    background: #202020;
+    background: #0e0e0e;
     color: white;
     padding: 1vmin;
     display: flex;
@@ -122,3 +121,4 @@ header {
 .info-bar {
     padding: 1vmin;
 }
+
