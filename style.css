@@ -84,6 +84,14 @@ header {
     color: #202020;
     padding: 1vmin;
     overflow: auto;
+    /* hide scroll bar, IE & Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.stat-bar::-webkit-scrollbar {
+    /* hide scroll bar, Chrome & Safari */
+    display: none;
 }
 
 .card {
@@ -96,14 +104,10 @@ header {
     align-items: center;
     border-radius: 20%;
     margin: 1vmin;
-    /* hide scroll bar, IE & Firefox */
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
-.card::-webkit-scrollbar {
-    /* hide scroll bar, Chrome & Safari */
-    display: none;
+.card > div:first-child {
+    font-size: 200%;
 }
 
 .card > div:first-child {
