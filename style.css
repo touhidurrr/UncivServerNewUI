@@ -62,8 +62,9 @@ header {
 }
 
 .tabs > div {
-    background: gray;
+    background: #202020;
     margin: 1vmin;
+    margin-bottom: 0;
     padding: 0.5vmin;
 }
 
@@ -75,9 +76,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(101, 98, 98);
-    margin: 0.5vmin;
-    padding: 1vmin;
+    background: #202020;
+    margin: 1vmin;
+    padding: 2vmin;
 }
 
 .stat-bar {
