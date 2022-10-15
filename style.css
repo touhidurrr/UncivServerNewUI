@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    color:white;
+    color: white;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto 1fr;
@@ -95,6 +95,15 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 20%;
+    margin: 1vmin;
+    /* hide scroll bar, IE & Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card::-webkit-scrollbar {
+    /* hide scroll bar, Chrome & Safari */
+    display: none;
 }
 
 .card > div:first-child {
