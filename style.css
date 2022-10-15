@@ -15,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto 1fr;
-    background: #202020;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
 }
 
 a {
@@ -61,10 +61,18 @@ header {
 }
 
 .tabs > div {
-    background: #0e0e0e;
     margin: 1vmin;
     margin-bottom: 0;
-    padding: 0.5vmin;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    transition: 400ms;
+}
+
+.tabs > div:hover {
+    padding-bottom: 0;
+    border-bottom: 5px solid;
+    border-color: aquamarine;
 }
 
 .games-list {
@@ -75,9 +83,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0e0e0e;
+    background: hsl(0, 0%, 5%, 50%);
     margin: 1vmin;
     padding: 2vmin;
+    border-radius: 20px;
 }
 
 .stat-bar {
@@ -95,7 +104,7 @@ header {
 }
 
 .card {
-    background: #0e0e0e;
+    background: hsl(0, 0%, 5%, 50%);
     color: white;
     padding: 1vmin;
     display: flex;
@@ -121,4 +130,3 @@ header {
 .info-bar {
     padding: 1vmin;
 }
-
